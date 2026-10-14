@@ -27,27 +27,27 @@ The system simulates a virtual robot navigating a two-dimensional grid, avoiding
 
 ### 1. Autonomous Navigation Simulation
 
-The virtual robot navigates the grid from the starting point to the destination along the planned path.
+The virtual robot navigates from the green starting point to the red destination using the A* path-planning algorithm.
 
-![Autonomous Navigation Simulation](images/simulation.png)
+![Autonomous Navigation Simulation](screenshots/Autonomous%20Navigation%20Simulation.png)
 
 ### 2. Dynamic Obstacle Replanning
 
-When a new obstacle is introduced, the system recalculates the route to find an alternative path.
+When a new obstacle is introduced, the algorithm recalculates the route to help the robot navigate around it.
 
-![Dynamic Obstacle Replanning](images/dynamic-replanning.png)
+![Dynamic Obstacle Replanning](screenshots/Dynamic%20Obstacle%20Replanning.png)
 
 ### 3. Automated Test Results
 
-The path-planning algorithm is verified using three automated unit tests.
+All three path-planning unit tests passed successfully.
 
-![Automated Test Results](images/test-results.png)
+![Automated Test Results](screenshots/test-results.png)
 
 ## Demo Video
 
-The demonstration showcases the virtual robot's navigation, planned route, and dynamic obstacle replanning.
+Watch the autonomous navigation system in action, demonstrating robot movement, A* path planning, and dynamic obstacle replanning.
 
-[Watch the Autonomous Navigation Demo](videos/autonomous-navigation-demo.mp4)
+[▶ Watch the Autonomous Navigation Demo](videos/autonomous-navigation-demo.mp4)
 
 ## Project Structure
 
